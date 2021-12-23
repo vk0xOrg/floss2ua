@@ -1,10 +1,11 @@
-baseURL: https://vk0xorg.github.io/flos2ua/
+#baseURL: https://vk0xorg.github.io/flos2ua/
+baseURL: /
 title: FLOSS/in/UA
 
 # Comment when installing using Hugo Modules
-#theme: eureka
+theme: eureka
 # Uncomment when installing using Hugo Modules
-theme: wangchucheng.com/hugo-eureka
+#theme: wangchucheng.com/hugo-eureka
 # If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
 paginate: 3
