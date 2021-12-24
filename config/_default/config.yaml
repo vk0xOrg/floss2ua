@@ -1,5 +1,5 @@
 #baseURL: https://vk0xorg.github.io/floss2ua
-baseURL: "/floss2ua"
+baseURL: "floss2ua/"
 title: FLOSS/in/UA
 
 # Comment when installing using Hugo Modules
