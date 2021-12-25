@@ -1,5 +1,4 @@
-#baseURL: https://vk0xorg.github.io/floss2ua
-baseURL: "floss2ua/"
+baseURL: https://vk0xorg.github.io/floss2ua
 title: FLOSS/in/UA
 
 # Comment when installing using Hugo Modules
@@ -43,4 +42,6 @@ taxonomies:
   author: authors
 
 build:
-  useResourceCacheWhen: always
+  # had a problem with a build. found a solution here
+  # https://discourse.gohugo.io/t/error-building-site-postcss/31766/2
+  useResourceCacheWhen: fallback
